@@ -2,18 +2,18 @@ const help = (prefix) => {
 	return `
 ╔══✪〘 INFO 〙✪══
 ║
-╠➥   ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot
+╠➥ ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot
 ╠➥ *4.5*
 ╠➥ 𝐃𝐎𝐍𝐎:  ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸
-╠➥ *wa.me/+558494740639*
+╠➥ *wa.me/+558494740630
 ╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 ║
 ╠══✪〘 NOVIDADES 〙✪══
 ║
-║1 *${prefix}animecry*
-║2 *${prefix}chentai [premium]*
-║3 *${prefix}gcpf [premium]*
-║4 *${prefix}gay [@]*
+║1 *${prefix}msc*
+║2 *${prefix}Comandos de voz*
+║3 *${prefix}meme [corrigido]*
+║4 *${prefix}comandos sem prefix*
 ║5 *${prefix}gbin [premium]*
 ║5 *${prefix}pack [premium]*
 ║6 *${prefix}destrava [premium]*
@@ -204,6 +204,45 @@ const help = (prefix) => {
 ║156 *${prefix}antiracismo [on/off]*
 ║157 *${prefix}setnomebot*
 ║158 *${prefix}meme*
+║159 *${prefix}musicas*
+║
+╠══✪〘 YT MUSIC 〙✪══
+║
+╠══NOTA »
+║menu completo em .msc
+╠════════════════════
+║
+║160 *${prefix}hylander*
+║161 *${prefix}nikeb*
+║162 *${prefix}BanhoDeLeite*
+║163 *${prefix}AkDoFlamengo*
+║164 *${prefix}Nemo*
+║165 *${prefix}kalidade*
+║166 *${prefix}macaverde*
+║167 *${prefix}m4*
+║168 *${prefix}cmgremio*
+║169 *${prefix}cmflamengo*
+║
+║
+╠══✪〘 HACKER MENU 〙✪══
+║
+║170 *${prefix}fbcheker*
+║171 *${prefix}hackfb*
+║172 *${prefix}bruteforcefb*
+║173 *${prefix}toolsphishing*
+║174 *${prefix}terkeytermux*
+║175 *${prefix}socialfishv2*
+║176 *${prefix}tool*
+║
+╠══✪〘 STICKER MENU 〙✪══
+║
+║177 *${prefix}animecry* 
+║178 *${prefix}hubgif*
+║179 *${prefix}blowgif* 🔞
+║180 *${prefix}shota*
+║181 *${prefix}hentaifig* 🔞
+║182 *${prefix}nekofig* 🔞
+║183 *${prefix}lolifig*
 ║
 ╠══✪〘 INTERATIVOS 〙✪══
 ║
@@ -211,25 +250,62 @@ const help = (prefix) => {
 ║Mandar a msg sem o prefixo
 ╠════════════════════
 ║
-║159 *bah*
-║160 *oii*
-║161 *bv*
-║162 *canta ai bot*
-║163 *grita*
+║184 *bah*
+║185 *oii*
+║186 *bv*
+║187 *canta ai bot*
+║188 *grita*
+║189 *digita*
+║190 *machista*
 ║
+╠══✪〘 OUTROS /3 〙✪══
+║
+║191 *${prefix}atris* 🔞
+║
+╠══✪〘 CMDS DE VÍDEO 〙✪══
+║
+╠══EDITS »
+║_*Say Cat*_
+╠════════
+║
+║192 *${prefix}say1*
+║193 *${prefix}say2*
+║194 *${prefix}say3*
+║195 *${prefix}say4*
+║
+╠══EDITS »
+║_*XXXTENTACIONS*_
+╠═══════════════
+║
+║196 *${prefix}xxx1*
+║197 *${prefix}xxx2*
+║
+╠══EDITS »
+║_*VARIADAS*_
+╠═══════════════
+║
+║198 *${prefix}teto1*
+║199 *${prefix}edit1*
+║200 *${prefix}edit2*
+║201 *${prefix}edit3*
+║202 *${prefix}edit4*
+╠═══════════════
+║
+║ *MAIS COMANDOS*
+║ *PRÓXIMA ATT*
 ║
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
 ║ *NOME:  ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸*
 ║ *INSTA: Dakauann_cavalcante*
-║ *WPP: wa.me/+558494740639*
+║ *WPP: wa.me/+558494740630*
 ║ *YOUTUBE: https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw*
+
+║  *"sigura nois zuck🕵️‍♂️🤙*
+   *"${prefix}dono pra entrar em contato com o meu dono"*
 ║
-║  *"Sem flood"*
-║  *Sigura bois muleki🕵️‍♂️🤙*
 ║
-║
-╚═〘 ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot 〙`
+╚═〘 ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot〙`
 }
 
 exports.help = help
