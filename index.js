@@ -68,8 +68,8 @@ const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:TrashDk\n' // Nama kamu
-            + 'ORG:TrashDkbot;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 84 9474-0630type 
+            + 'ORG:Lexa;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 84 9474-0630\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Miku.json'))
 const {
