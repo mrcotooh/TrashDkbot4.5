@@ -69,7 +69,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:TrashDk\n' // Nama kamu
             + 'ORG:TrashDkbot;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 849474-0630type
+            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 84 9474-0630type 
             + 'END:VCARD'
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Miku.json'))
 const {
