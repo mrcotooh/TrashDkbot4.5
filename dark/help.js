@@ -229,7 +229,7 @@ const help = (prefix) => {
 ║  *Sigura bois muleki🕵️‍♂️🤙*
 ║
 ║
-╚═〘 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 〙`
+╚═〘 ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot 〙`
 }
 
 exports.help = help
