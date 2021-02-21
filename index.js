@@ -2964,16 +2964,17 @@ break
                 case 'irii':
 			client.sendPtt(from, './lindy/iri2.mp3', id)
 			break
-                      case 'play': 
+                 case 'play':
                 reply(mess.wait)
                 play = body.slice(5)
                 anu = await fetchJson(`https://api.zeks.xyz/api/ytplaymp3?q=${play}&apikey=apivinz`)
                if (anu.error) return reply(anu.error)
-                 infomp3 = `*Musica Encontrada!!!*\nTitulo : ${anu.result.title}\nFonte : ${anu.result.source}\nTamanho : ${anu.result.size}\n\n*Demorei né? é foda*`
+                 infomp3 = `*MUSICA ENCONTRADA!!!*\nTítulo : ${anu.result.title}\nUrl : ${anu.result.source}\nTamanho : ${anu.result.size}\n\n*ESPERE UM POUQUINHO, N SPAME O CHAT*`
                 buffer = await getBuffer(anu.result.thumbnail)
                 lagu = await getBuffer(anu.result.url_audio)
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
                 client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
+                await limitAdd(sender)
                 break
 				case 'setnome':
                    if (!isGroup) return reply(mess.only.group)
@@ -3817,7 +3818,7 @@ break
 				case 'dono':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://i.imgur.com/pK233MU.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:*  ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸\n*YOUTUBE:* https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n*WPP:* wa.me/+558494740630\n*INSTA:* @Dakauann_cavalcante\n\n\nEspero que tenham gostado do bot 🕵️‍♂️🤙'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '*CRIADOR:*  ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸\n*YOUTUBE:* https://youtu.be/jUmO1JcGlG4\n*WPP:* wa.me/+558494740630\n*INSTA:* Dakauann_cavalcante\n\n\nEspero que tenham gostado do bot 💸'})
 					break
 				case 'setprefix':
 					if (args.length < 1) return
