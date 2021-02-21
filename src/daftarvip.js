@@ -16,5 +16,10 @@ _wa.me/558494740630 ou digite *${prefix}owner*_
 
 *GRUPO DO TrashDkbot :*
 _https://chat.whatsapp.com/COKM1MB1bK0CqE8y0IDQV0GRUPO_
+
+`
+
 }
+
+
 exports.daftarvip = daftarvip
