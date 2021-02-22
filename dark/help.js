@@ -289,7 +289,8 @@ const help = (prefix) => {
 ║200 *${prefix}edit2*
 ║201 *${prefix}edit3*
 ║202 *${prefix}edit4*
-203 *${prefix}closegc*
+║203 *${prefix}closegc*fecha o grupo.
+║204 *${prefix}opengc*abre o grupo.
 ╠═══════════════
 ║
 ║ *MAIS COMANDOS*
@@ -301,9 +302,9 @@ const help = (prefix) => {
 ║ *INSTA: Dakauann_cavalcante*
 ║ *WPP: wa.me/+558494740630*
 ║ *YOUTUBE: https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw*
-
+║
 ║  *"sigura nois zuck🕵️‍♂️🤙*
-   *"${prefix}dono pra entrar em contato com o meu dono"*
+║   *"${prefix}dono pra entrar em contato com o meu dono"*
 ║
 ║
 ╚═〘 ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot〙`
