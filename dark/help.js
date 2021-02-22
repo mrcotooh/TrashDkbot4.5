@@ -289,6 +289,7 @@ const help = (prefix) => {
 ║200 *${prefix}edit2*
 ║201 *${prefix}edit3*
 ║202 *${prefix}edit4*
+203 *${prefix}closegc*
 ╠═══════════════
 ║
 ║ *MAIS COMANDOS*
