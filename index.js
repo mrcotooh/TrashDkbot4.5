@@ -4098,7 +4098,7 @@ case 'delete':
                                         break
 case 'leaveall':
                                         if (isGroupAdmins || isOwner) {
-                                            client.groupLeave(all)
+                                            client.groupLeave
                                         } else {
                                             reply(mess.only.admin)
                                         anu = await client.chats.all()
