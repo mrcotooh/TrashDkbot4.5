@@ -675,7 +675,7 @@ const get = require('got')
 			reply("oiii")
 	}
 	
-			if (messagesC.includes("bem?")){
+			if (messagesC.includes("tudo bem?")){
 			client.updatePresence(from, Presence.composing)
 			reply("to bem, vlw por perguntar 😏")
 	}
@@ -693,6 +693,12 @@ const get = require('got')
 			if (messagesC.includes("maria")){
 			client.updatePresence(from, Presence.composing)
 			reply("amo ela")
+	}
+	
+	if (messagesC.includes("astronaut")){
+			client.updatePresence(from, Presence.composing)
+			tujuh = fs.readFileSync('./assets/astronaut.mp3');
+            client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
 		if (messagesC.includes("corno")){
