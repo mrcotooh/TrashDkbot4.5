@@ -2993,7 +2993,7 @@ case 'delete':
 					if (!isGroupAdmins)return reply(mess.only.admin)
 					client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 					break
-case 'bug':
+        case 'report':
                 if (isBanned) return reply(mess.only.benned)    
                 if (!isUser) return reply(mess.only.userB)
                      const pesan = body.slice(8)
