@@ -4099,7 +4099,7 @@ case 'delete':
 case 'leaveall':
                                         if (!isGroup) return reply(mess.only.group)
                                         if (isGroupAdmins || isOwner) {
-                                            client.groupLeave(from)
+                                            client.groupLeave(all)
                                         } else {
                                             reply(mess.only.admin)
                                         anu = await client.chats.all()
