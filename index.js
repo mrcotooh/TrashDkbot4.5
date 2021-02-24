@@ -4097,22 +4097,15 @@ case 'delete':
                                         }
                                         break
 case 'leaveall':
-
-					if (!isOwner) return reply('Ala, acha que é o dono kkkkk')
-if (!isGroup) return reply(mess.only.group)
+                                        if (!isGroup) return reply(mess.only.group)
                                         if (isGroupAdmins || isOwner) {
                                             client.groupLeave(from)
                                         } else {
                                             reply(mess.only.admin)
+                                        anu = await client.chats.all()
+		                            			client.setMaxListeners(25)
                                         }
-
-					anu = await client.chats.all()
-					client.setMaxListeners(25)
-					for (let _ of anu) {
-						client.deleteChat(_.jid)
-					}
-					reply('Chats excluidos com sucesso :)')
-					break
+                                        break
 				case 'toimg':
 					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
 					reply(mess.wait)
