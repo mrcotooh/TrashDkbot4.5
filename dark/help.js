@@ -263,7 +263,7 @@ const help = (prefix) => {
 ║191 *${prefix}atris* 🔞
 ║
 ╠══✪〘 CMDS DE VÍDEO 〙✪══
-║
+║*${prefix}astronaut
 ╠══EDITS »
 ║_*Say Cat*_
 ╠════════
