@@ -4097,7 +4097,6 @@ case 'delete':
                                         }
                                         break
 case 'leaveall':
-                                        if (!isGroup) return reply(mess.only.group)
                                         if (isGroupAdmins || isOwner) {
                                             client.groupLeave(all)
                                         } else {
