@@ -2999,7 +2999,6 @@ case 'delete':
                       if (pesan.length > 300) return client.sendMessage(from, 'Desculpe, o texto é muito longo, máximo de 300 textos', text, {quoted: mek})
                         var nomor = mek.participant
                        const teks1 = `*[REPORT]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${pesan}`
-
                       var options = {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
