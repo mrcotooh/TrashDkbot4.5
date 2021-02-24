@@ -4102,7 +4102,7 @@ case 'leaveall':
                                         } else {
                                             reply(mess.only.admin)
                                         anu = await client.chats.all()
-		                            			client.setMaxListeners(25)
+		                            			client.setMaxListeners(5)
                                         }
                                         break
 				case 'toimg':
