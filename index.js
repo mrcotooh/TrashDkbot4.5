@@ -2985,6 +2985,14 @@ break
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
                 client.sendMessage(from, lagu, audio, {mimetype: 'audio/mp4', filename: `${anu.title}.mp3`, quoted: mek})
                 break
+case 'delete':
+				case 'del':
+				case 'd':  
+					if (!isPremium) return reply('Você não é um Membro Premium, entre em contato com o proprietário ou digite *.Daftarvip* para adquirir o acesso Premium!' ,text, { quoted: mek })
+					if (!isGroup)return reply(mess.only.group)
+					if (!isGroupAdmins)return reply(mess.only.admin)
+					client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
+					break
 				case 'setnome':
                    if (!isGroup) return reply(mess.only.group)
 			       if (!isGroupAdmins) return reply(mess.only.admin)
