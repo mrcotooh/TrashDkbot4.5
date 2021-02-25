@@ -16,6 +16,7 @@ _*COMANDOS:*_
 8• *${prefix}m4*
 9• *${prefix}cmgremio*
 10• *${prefix}cmflamengo*
+11• *${prefix}astronaut*
 
 ──────────────────
 『 SUGESTÃO DE MSC 』
