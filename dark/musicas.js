@@ -1,10 +1,8 @@
 const musicas = () => { 
 	return `           
-──────────────────
-*YOUTUBE MUSIC*
-──────────────────
+*músicas do TrashDkbot*
+
 _*COMANDOS:*_
-──────────────────
 
 1• *${prefix}hylander*
 2• *${prefix}nikeb*
@@ -18,10 +16,10 @@ _*COMANDOS:*_
 10• *${prefix}cmflamengo*
 11• *${prefix}astronaut*
 
-──────────────────
-『 SUGESTÃO DE MSC 』
+|||||||||||||||||||||||
+SUGESTÃO DE MSC 
            
 _*wa.me/+558494740630*_
-──────────────────`
+√√√√√√√√√√√√√√√√√√√√√√√√√
 }
 exports.musicas = musicas
