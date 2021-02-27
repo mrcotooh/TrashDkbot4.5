@@ -328,7 +328,7 @@ async function starts() {
 			const mod = [ownerNumber,"558494740630@s.whatsapp.net"]//ubah nomor lo
 			const adminbotnumber = ["558494740630@s.whatsapp.net"]//ubah nomor lo
 			const frendsowner = ["558494740630@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["558494740630@s.whatsapp.net"]
+			const premium = ["558494740630@s.whatsapp.net","558496217531@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -4083,7 +4083,6 @@ case 'delete':
 					break
                                 case 'linkgp':
                                         if (!isGroup) return reply(mess.only.group)
-                                        if (!isGroupAdmins) return reply(mess.only.admin)
                                         if (!isBotGroupAdmins) return reply(mess.only.Badmin)
                                         linkgc = await client.groupInviteCode(from)
                                         reply('https://chat.whatsapp.com/'+linkgc)
@@ -4102,7 +4101,7 @@ case 'leaveall':
                                         } else {
                                             reply(mess.only.admin)
                                         anu = await client.chats.all()
-		                            			client.setMaxListeners(5)
+		                            			client.setMaxListeners(5 )
                                         }
                                         break
 				case 'toimg':
