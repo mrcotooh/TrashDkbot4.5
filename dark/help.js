@@ -305,7 +305,9 @@ const help = (prefix) => {
 ║
 ║  *"sigura nois zuck🕵️‍♂️🤙*
 ║   *"${prefix}dono pra entrar em contato com o meu dono"*
-║Creditos ao dark criador da base : https://youtube.com/channel/UCcNXUT8f4grmNxQCxiZX95Q
+║
+║
+║Creditos ao dark criador da base : _*https://youtube.com/channel/UCcNXUT8f4grmNxQCxiZX95Q*_
 ║
 ╚═〘 ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸Bot〙`
 }
