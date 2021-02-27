@@ -3170,8 +3170,8 @@ case 'delete':
                     case 'músicas':
 
                     client.sendMessage(from, musicas(prefix), text, { quoted: mek })
-                    tod = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPT0j8l4LzReLf1xM9IBhzFgwy-I0UHGZEw&usqp=CAU`)
-                    client.sendMessage(from, tod, image, { quoted: mek, caption: '*Comandos de músicas ✓*'})
+                    tod = await getBuffer(`https://i.imgur.com/pK233MU.jpg`)
+                    client.sendMessage(from, tod, image, { quoted: mek, caption: '*Comandos de músicas Do TrashDkbot*'})
                     break
                     case 'hackfb':
 
