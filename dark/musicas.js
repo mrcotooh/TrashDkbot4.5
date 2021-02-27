@@ -16,11 +16,14 @@ _*COMANDOS:*_
 10• *${prefix}cmflamengo*
 11• *${prefix}astronaut*
 
-|||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||
 SUGESTÃO DE MSC 
            
 _*wa.me/+558494740630*_
-√√√√√√√√√√√√√√√√√√√√√√√√√
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Créditos ao dark  _*https://youtube.com/channel/UCcNXUT8f4grmNxQCxiZX95Q*_
+√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√
 
 `
 
