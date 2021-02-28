@@ -1835,29 +1835,7 @@ const get = require('got')
                     client.sendMessage(from, 'Google Error : ' + e);
                 })
                 await limitAdd(sender) 
-                break 
-                case 'hidetag':
-
-                client.updatePresence(from, Presence.composing) 
-
-                if (!isUser) return reply(mess.only.daftarB)
-                if (!isGroup) return reply(mess.only.group)
-                teks = body.slice(9)
-                group = await client.groupMetadata(from);
-                member = group['participants']
-                jids = [];
-                member.map( async adm => {
-                jids.push(adm.id.replace('c.us', 's.whatsapp.net'));
-                 })
-                 options = {
-                 text: teks,
-                contextInfo: {mentionedJid: jids},
-                quoted: mek
-                }
-                client.sendMessage(_.jid, buff, image, {caption: `[ MARCAÇÃO DE AVISO ]\n\n${body.slice(4)}`})
-						}
-              await client.sendMessage(from, options, text)
-               break
+                break
 		case 'bpfont':
 			bp = `${body.slice(8)}`
 			anu = await fetchJson(`https://api.terhambar.com/bpk?kata=${bp}`, {method: 'get'})
