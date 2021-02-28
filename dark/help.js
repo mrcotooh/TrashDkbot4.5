@@ -6,9 +6,9 @@ const help = (prefix) => {
 ╠➥ *4.5*
 ╠➥ 𝐃𝐎𝐍𝐎:  ✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤 𝒐͢𝒇𝒄ꪶ↷💸
 ╠➥ *wa.me/+558494740630
-╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
+╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: On
 
-*${kyun=(uptime)}*
+*Status Bot:* *${kyun(uptime)}*\n\n*
 
 ╠══✪〘 NOVIDADES 〙✪══
 
