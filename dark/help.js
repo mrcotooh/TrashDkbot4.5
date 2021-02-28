@@ -8,7 +8,7 @@ const help = (prefix) => {
 ╠➥ *wa.me/+558494740630
 ╠➥ 𝐒𝐓𝐀𝐓𝐔𝐒: ON
 
-${kyun(uptime)}
+${process(uptime)}
 
 ╠══✪〘 NOVIDADES 〙✪══
 
