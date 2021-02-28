@@ -867,6 +867,7 @@ const get = require('got')
 			switch(command) {
 				case 'help':
 				case 'menu':
+	     	me = client.user
 				uptime = process.uptime()
 					client.sendMessage(from, help(prefix), text)
 					break
