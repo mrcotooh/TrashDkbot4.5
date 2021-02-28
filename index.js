@@ -4118,14 +4118,15 @@ case 'delete':
                                         }
                                         break
 case 'leaveall':
-                                        if (isGroupAdmins || isOwner) {
-                                            client.groupLeave()
-                                        } else {
-                                            reply(mess.only.admin)
-                                        anu = await client.chats.all()
-		                            			client.setMaxListeners(5 )
-                                        }
-                                        break
+            if (!isOwner) return client.reply(from, 'Você não é meu criador.', id)
+            anu = await client.chats.all()
+            for (let gclist of allGroupz) {
+                await client.sendText(gclist.contact.id, `Até mais.`)
+                await client.leaveGroup(gclist.contact.id)
+                await client.deleteChat(gclist.contact.id)
+            }
+            client.reply(from, 'Saí de todos os grupos.', id)
+            break
 				case 'toimg':
 					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
 					reply(mess.wait)
