@@ -631,6 +631,23 @@ if (text.includes("placa"))
 		}, 0)
 		}
 	
+		if (messagesC.includes("adm lixo")){
+		if (!isGroup) return
+		if (!isAntiLink) return
+		if (isGroupAdmins) return reply(`*Você é admin, nao irei te banir, fica suave.*`)
+		client.updatePresence(from, Presence.composing)
+		var Kick = `${sender.split("@")[0]}@s.whatsapp.net`
+		setTimeout( () => {
+		reply('tchau👋')
+		}, 1100)
+		setTimeout( () => {
+		client.groupRemove(from, [Kick]).catch((e) => {reply(`*ERROR:* ${e}`)}) 
+					}, 1000)
+		setTimeout( () => {
+		reply(`ofensa ao ADM detectada`)
+		}, 0)
+		}
+	
        if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
