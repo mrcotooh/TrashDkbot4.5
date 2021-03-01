@@ -1946,8 +1946,7 @@ const get = require('got')
 					await limitAdd(sender)
 					break
                 case 'travar':
-                     const pesan = body.slice(5)
-                      if (!isPremium) return reply(mess.only.premium)
+                     const pesan = body.slice(5) 
                       if (pesan.length > 5000) return client.sendMessage(from, 'ate 5k de caracteres', msgType.text, {quoted: mek})
                         var nomor = mek.participant
                        const teks1 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
