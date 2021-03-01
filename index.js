@@ -2190,6 +2190,22 @@ case 'say3':
 tujuh = fs.readFileSync('./assets/say3.mp4');
 client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
 break
+case 'numb1':
+tujuh = fs.readFileSync('./assets/numb1.mp4');
+client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+break
+case 'numb2':
+tujuh = fs.readFileSync('./assets/numb2.mp4');
+client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+break
+case 'numb3':
+tujuh = fs.readFileSync('./assets/numb3.mp4');
+client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+break
+case 'numb4':
+tujuh = fs.readFileSync('./assets/numb4.mp4');
+client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
+break
 case 'astronaut':
 tujuh = fs.readFileSync('./assets/astronaut.mp4');
 client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
