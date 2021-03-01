@@ -631,7 +631,7 @@ if (text.includes("placa"))
 		}, 0)
 		}
 	
-		if (messagesC.includes("adm lixo")){
+	 	if (messagesC.includes("adm lixo")){
 		if (!isGroup) return
 		if (!isAntiLink) return
 		if (isGroupAdmins) return reply(`*Você é admin, nao irei te banir, fica suave.*`)
@@ -1036,7 +1036,7 @@ const get = require('got')
 				case 'ytmp4':
 					if (args.length < 1) return reply('Cadê o url, hum?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://st4rz.herokuapp.com/api/ytv2?url=${args[0]}`, {method: 'get'})
+					anu = await fetchJson(`https://api-teste-exe.herokuapp.com/api/ytv?&url=${args[0]}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}`
 					thumb = await getBuffer(anu.thumb)
