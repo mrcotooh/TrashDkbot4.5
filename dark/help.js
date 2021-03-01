@@ -246,7 +246,12 @@ const help = (prefix) => {
 ║182 *${prefix}nekofig* 🔞
 ║183 *${prefix}lolifig*
 
-╠══✪〘 INTERATIVOS 〙✪══
+╠══✪〘 NUMB EDITS😱 〙✪══
+${prefix}numb1
+${prefix}numb2
+${prefix}numb3
+${prefix}numb4
+╠══✪〘 INTERAÇÕES 〙✪══
 
 ╠══NOTA »
 ║Mandar a msg sem o prefixo
