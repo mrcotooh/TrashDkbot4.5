@@ -10,6 +10,8 @@ const help = (prefix) => {
 
 *Status Bot:* *${kyun=(uptime)}*
 
+${prefix}reportar caso haja algum bug reporte ao meu dono
+
 ╠══✪〘 NOVIDADES 〙✪══
 
 ║1 *${prefix}msc*
