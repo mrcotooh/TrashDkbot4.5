@@ -1038,11 +1038,11 @@ const get = require('got')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
 					anu = await fetchJson(`https://api-teste-exe.herokuapp.com/api/ytv?&url=${args[0]}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
-					teks = `*Title* : ${anu.title}`
-					thumb = await getBuffer(anu.thumb)
+					teks = `*título* : ${anu.titulo}`
+					thumb = await getBuffer(anu.capa)
 					client.sendMessage(from, thumb, image, {quoted: mek, caption: teks})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.title}.mp4`, quoted: mek})
+					buffer = await getBuffer(anu.resultado)
+					client.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.titulo}.mp4`, quoted: mek})
 					break
 		case 'iri':
 			client.sendPtt(from, './lindy/iri.mp3', {quoted: mek, ptt:true})
