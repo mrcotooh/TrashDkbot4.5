@@ -1406,13 +1406,13 @@ const get = require('got')
                      anker.sendMessage(from, buff, image, {quoted: mek, caption: `Tesouro do trono ${tahta}`})
                   await limitAdd(sender) 
                   break  
-                    case 'glitch':
+                   case 'cuzin':
                     gh = body.slice(7)
                     teks1 = gh.split("|")[0];
                     teks2 = gh.split("|")[1];
-                    data = await fetchJson(`https://api-teste-exe.herokuapp.com/api/glitch?text=${teks1}&text2=${teks2}`, {method: 'get'})
-                    bla = await getBuffer(data.result)
-                    client.sendMessage(from, bla, image, {quoted: mek, caption: 'naquelespike😳'})
+                     data = await fetchJson(`https://api-teste-exe.herokuapp.com/api/glitch?text=${teks1}&text2=${teks2}`, {method: 'get'})
+                    bla = await getBuffer(data.resultado)
+                    client.sendMessage(from, bla, image, {quoted: mek, caption: 'cuzinho 😳'})
                     break
           case 'snack':
 				if (args.length < 1) return reply('Cadê o url mano?')
