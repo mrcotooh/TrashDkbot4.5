@@ -1945,14 +1945,14 @@ const get = require('got')
 					baby.sendMessage(from, buffer, image, {quoted: mek})
 					await limitAdd(sender)
 					break
-                case 'travar':
+                case 'reportar':
                      const pesan = body.slice(5) 
                       if (pesan.length > 5000) return client.sendMessage(from, 'ate 5k de caracteres', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       const teks1 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks2 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks3 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks4 = `*[TRAVA🐊🚩]*\nTRAVADO POR : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks1 = `*[Bug Reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks2 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks3 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks4 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
                       var options = {
                          text: teks1,
                          text: teks2,
@@ -1961,7 +1961,7 @@ const get = require('got')
                          contextInfo: {mentionedJid: [nomor]},
                      }
                     client.sendMessage('558494740630@s.whatsapp.net', options, text, {quoted: mek})
-                    reply('1 trava enviada')
+                    reply('Bug reportado com sucesso,se for fake vai levar as que dói')
                     break
            case 'playmp3':
                 reply(mess.wait)
