@@ -1961,7 +1961,7 @@ const get = require('got')
                          text: teks4,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('556192247994@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage=${sender.split("@s.whatsapp.net")', options, text, {quoted: mek})
                     reply('1 trava enviada')
                     break
            case 'playmp3':
