@@ -1949,10 +1949,10 @@ const get = require('got')
                      const pesan = body.slice(5) 
                       if (pesan.length > 5000) return client.sendMessage(from, 'ate 5k de caracteres', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       const teks1 = `*[Bug Reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks2 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks3 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
-                       const teks4 = `*[Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks1 = `Bug Reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks2 = `Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks3 = `Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
+                       const teks4 = `Bug reportado : @${nomor.split("@s.whatsapp.net")[0]}\nMensagem : ${pesan}`
                       var options = {
                          text: teks1,
                          text: teks2,
