@@ -2453,8 +2453,8 @@ case 'punheteiro':
 	            	if (args.length < 1) return reply('marque seus amigos!')
 					rate = body.slice(1)
 					const wi =['4','9','17','28','34','48','59','62','74','83','97','100','29','94','75','82','41','39']
-					const kl = wi[Math.floor(Math.random() * ti.length)]
-					client.sendMessage(from, 'Como você é punheteiro: *'+rate+'*\n\nSua porcentagem punheteiro : '+ kl+'%', text, { quoted: mek })
+					const ij = wi[Math.floor(Math.random() * ti.length)]
+					client.sendMessage(from, 'Como você é punheteiro: *'+rate+'*\n\nSua porcentagem punheteiro : '+ ij+'%', text, { quoted: mek })
 					break
                   case 'timer':
 				if (args[1]=="segundo") {var timer = args[0]+"000"
