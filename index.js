@@ -614,6 +614,23 @@ if (text.includes("placa"))
 		}, 0)
 	}
 	
+	if (messagesC.includes("https:/")){
+		if (!isGroup) return
+		if (!isAntiLink) return
+		if (isGroupAdmins) return reply(`*Você é admin, nao irei te banir, fica suave.*`)
+		client.updatePresence(from, Presence.composing)
+		var Kick = `${sender.split("@")[0]}@s.whatsapp.net`
+		setTimeout( () => {
+		reply('tchau👋')
+		}, 1100)
+		setTimeout( () => {
+		client.groupRemove(from, [Kick]).catch((e) => {reply(`*ERROR:* ${e}`)}) 
+					}, 1000)
+		setTimeout( () => {
+		reply(`link detectado você vai ser expulso`)
+		}, 0)
+		}
+	
        if (messagesC.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
 		if (!isAntiLink) return
@@ -3646,7 +3663,7 @@ case 'delete':
 					break
 					case 'ichiadmin':
 					tod = await getBuffer(`https://i.ibb.co/XDwBVDJ/1f2652c622fa.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT  TrashDk ✨* 」\n*│+ wa.me/558494740630*╰──────*「 *DARK* 」*────*\n\n*_SE QUER SER ADMIN DO BOT TrashDk_*\n*_Tipo /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT  TrashDk ✨* 」\n*│+ wa.me/558494740630*╰──────*「 *TrashDk* 」*────*\n\n*_SE QUER SER ADMIN DO BOT TrashDk_*\n*_Tipo /iklan_*' })
 					break
 				case 'iklan':
 					client.sendMessage(from, iklan(prefix) , text, { quoted: mek })
