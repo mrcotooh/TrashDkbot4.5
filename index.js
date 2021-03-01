@@ -1410,7 +1410,7 @@ const get = require('got')
                     gh = body.slice(7)
                     teks1 = gh.split("|")[0];
                     teks2 = gh.split("|")[1];
-                    data = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=glitch&text1=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
+                    data = await fetchJson(`https://api-teste-exe.herokuapp.com/api/glitch?text=&text2=${teks1}&text2=${teks2}&apikey=BotWeA`, {method: 'get'})
                     hasil = await getBuffer(data.result)
                     anker.sendMessage(from, hasil, image, {quoted: mek, caption: 'neh...'})
                     await limitAdd(sender)
