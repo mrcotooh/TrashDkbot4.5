@@ -4160,7 +4160,7 @@ case 'leaveall':
                 await client.leaveGroup(gclist.contact.id)
                 await client.deleteChat(gclist.contact.id)
             }
-            client.reply(from, 'Meu dono prediu pra sair de todos os grupos,vai no pv dele e pergunta pq:('', id)
+            client.reply(from, 'Meu dono prediu pra sair de todos os grupos,vai no pv dele e pergunta pq:(', id)
             break
 				case 'toimg':
 					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
