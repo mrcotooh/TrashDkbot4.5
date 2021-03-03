@@ -4153,14 +4153,14 @@ case 'delete':
                                         }
                                         break
 case 'leaveall':
-            if (!isOwner) return client.reply(from, 'Você não é meu criador.', id)
-            anu = await client.chats.all()
-            for (let gclist of allGroupz) {
-                await client.sendText(gclist.contact.id, `Até mais.`)
+            if (!isOwner) return client.reply(from, 'Vc nem é o dono, fdp', id)
+            const allChats = await client.getAllChats()
+            const allGroups = await client.getAllGroups()
+            for (let gclist of allGroups) {
+                await client.sendText(gclist.contact.id, `Meu dono pediu pra mim sair de todos os grupos, até mais :(`)
                 await client.leaveGroup(gclist.contact.id)
-                await client.deleteChat(gclist.contact.id)
             }
-            client.reply(from, 'Meu dono prediu pra sair de todos os grupos,vai no pv dele e pergunta pq:(', id)
+            client.reply(from, 'Pronto, sai de todos os grupos', id)
             break
 				case 'toimg':
 					if (!isQuotedSticker) return reply('{ ❗ } *Marque a figurinha*')
