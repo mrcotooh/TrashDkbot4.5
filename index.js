@@ -1518,7 +1518,7 @@ const get = require('got')
 		             if (args.length < 1) return reply ('o nome do grupo é: *${groupMetadata.subject}*')
 		             break
 case 'banir':
-			if (!isOwner) return reply('Quem é Você, você não é meu dono')
+			if (!isOwner) return reply('esse comando só pode ser usado pelo meu dono pra evitar que eu seja banido :0')
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
